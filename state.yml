@@ -22,8 +22,7 @@ shared_services:
       upgraded: false
   health: UP
   name: arcas-shares-services
-  version:
-    tkg: 1.3.0
+  version: 1.3.0 
 workload_clusters:
 - deployed: false
   extensions:
