@@ -10,11 +10,8 @@ mgmt:
   version: 1.3.0
 shared_services:
   deployed: false
-  health: UP
-  name: tkg-shared-services
-  version: 1.3.0
-  extensions: 
-    contour: 
+  extensions:
+    contour:
       deployed: false
       upgraded: false
     externalDns:
@@ -23,18 +20,21 @@ shared_services:
     harbor:
       deployed: false
       upgraded: false
+  health: UP
+  name: tkg-shared-services
+  version: 1.3.0
 workload_clusters:
 - deployed: false
-  health: UP
-  name: tkg-workload-clu
-  version: 1.3.0
-  extensions: 
-    contour: 
-      deployed: false
-      upgraded: false
-    prometheus:
+  extensions:
+    contour:
       deployed: false
       upgraded: false
     grafana:
       deployed: false
       upgraded: false
+    prometheus:
+      deployed: false
+      upgraded: false
+  health: UP
+  name: tkg-workload-clu
+  version: 1.3.0
