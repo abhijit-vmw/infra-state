@@ -24,7 +24,7 @@ shared_services:
   name: arcas-shares-services
   version: 1.3.0
 workload_clusters:
-- deployed: false
+- deployed: true
   extensions:
     contour:
       deployed: false
@@ -35,10 +35,6 @@ workload_clusters:
     prometheus:
       deployed: false
       upgraded: false
-  health: UP
-  name: tkg-workload-clu
-  version: 1.3.0
-- deployed: true
   health: UP
   name: arcas-workload
   version: 1.3.0
