@@ -9,7 +9,7 @@ mgmt:
   name: arcas-mgmt
   version: 1.3.0
 shared_services:
-  deployed: false
+  deployed: true
   extensions:
     contour:
       deployed: false
@@ -21,8 +21,9 @@ shared_services:
       deployed: false
       upgraded: false
   health: UP
-  name: tkg-shared-services
-  version: 1.3.0
+  name: arcas-shares-services
+  version:
+    tkg: 1.3.0
 workload_clusters:
 - deployed: false
   extensions:
