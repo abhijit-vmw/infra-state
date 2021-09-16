@@ -4,12 +4,12 @@ avi:
   name: ''
   version: 20.1.3
 mgmt:
-  deployed: true
+  deployed: false
   health: UP
   name: arcas-mgmt
   version: 1.3.1
 shared_services:
-  deployed: true
+  deployed: false
   extensions:
     contour:
       deployed: true
@@ -24,7 +24,7 @@ shared_services:
   name: arcas-shares-services
   version: 1.3.0
 workload_clusters:
-- deployed: true
+- deployed: false
   extensions:
     contour:
       deployed: false
