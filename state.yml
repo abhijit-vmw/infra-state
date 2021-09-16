@@ -9,7 +9,7 @@ mgmt:
   name: arcas-mgmt
   version: 1.3.0
 shared_services:
-  deployed: false
+  deployed: true
   extensions:
     contour:
       deployed: false
