@@ -13,13 +13,13 @@ shared_services:
   extensions:
     contour:
       deployed: true
-      upgraded: true
+      upgraded: false
     externalDns:
-      deployed: false
+      deployed: true
       upgraded: false
     harbor:
       deployed: true
-      upgraded: true
+      upgraded: false
   health: UP
   name: arcas-shares-services
   version: 1.3.0
