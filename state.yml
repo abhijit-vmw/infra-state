@@ -12,8 +12,8 @@ shared_services:
   deployed: true
   extensions:
     contour:
-      deployed: false
-      upgraded: false
+      deployed: true
+      upgraded: true
     externalDns:
       deployed: false
       upgraded: false
