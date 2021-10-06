@@ -11,6 +11,9 @@ mgmt:
 shared_services:
   deployed: false
   extensions:
+    certManager:
+      deployed: false
+      upgraded: false
     contour:
       deployed: false
       upgraded: false
