@@ -31,8 +31,8 @@ workload_clusters:
 - deployed: true
   extensions:
     certManager:
-      deployed: false
-      upgraded: false
+      deployed: true
+      upgraded: true
     contour:
       deployed: false
       upgraded: false
