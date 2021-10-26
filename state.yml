@@ -9,7 +9,7 @@ mgmt:
   name: arcas-mgmt
   version: 1.4.0
 shared_services:
-  deployed: false
+  deployed: true
   extensions:
     certManager:
       deployed: false
@@ -24,7 +24,7 @@ shared_services:
       deployed: false
       upgraded: false
   health: UP
-  name: arcas-shares-services
+  name: arcas-shared-services
   upgradedFrom: null
   version: 1.4.0
 workload_clusters:
