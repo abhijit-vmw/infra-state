@@ -28,7 +28,7 @@ shared_services:
   upgradedFrom: null
   version: 1.4.0
 workload_clusters:
-- deployed: false
+- deployed: true
   extensions:
     certManager:
       deployed: false
@@ -44,4 +44,4 @@ workload_clusters:
       upgraded: false
   health: UP
   name: arcas-workload
-  version: 1.3.0
+  version: 1.4.0
