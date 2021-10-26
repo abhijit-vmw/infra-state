@@ -28,20 +28,20 @@ shared_services:
   upgradedFrom: null
   version: 1.4.0
 workload_clusters:
-- deployed: true
+- deployed: false
   extensions:
     certManager:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     contour:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     grafana:
       deployed: false
       upgraded: false
     prometheus:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
   health: DOWN
   name: arcas-workload
   version: 1.4.0
