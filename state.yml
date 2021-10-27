@@ -4,16 +4,16 @@ avi:
   name: ''
   version: 20.1.6
 mgmt:
-  deployed: true
+  deployed: false
   health: UP
   name: arcas-mgmt
   version: 1.4.0
 shared_services:
-  deployed: true
+  deployed: false
   extensions:
     certManager:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     contour:
       deployed: false
       upgraded: false
@@ -28,20 +28,20 @@ shared_services:
   upgradedFrom: null
   version: 1.4.0
 workload_clusters:
-- deployed: true
+- deployed: false
   extensions:
     certManager:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     contour:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     grafana:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     prometheus:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
   health: UP
   name: arcas-workload
   version: 1.4.0
