@@ -37,8 +37,8 @@ workload_clusters:
       deployed: true
       upgraded: true
     grafana:
-      deployed: true
-      upgraded: true
+      deployed: false
+      upgraded: false
     prometheus:
       deployed: false
       upgraded: false
