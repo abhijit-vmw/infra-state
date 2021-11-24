@@ -34,8 +34,8 @@ workload_clusters:
       deployed: true
       upgraded: true
     contour:
-      deployed: false
-      upgraded: false
+      deployed: true
+      upgraded: true
     grafana:
       deployed: false
       upgraded: false
