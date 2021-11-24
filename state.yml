@@ -42,6 +42,6 @@ workload_clusters:
     prometheus:
       deployed: false
       upgraded: false
-  health: DOWN
+  health: UP
   name: arcas-workload
   version: 1.4.0
