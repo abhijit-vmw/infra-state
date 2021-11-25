@@ -23,6 +23,9 @@ shared_services:
     harbor:
       deployed: false
       upgraded: false
+  integrations:
+    tmc:
+      attached: false
   health: UP
   name: arcas-shared-services
   upgradedFrom: null
