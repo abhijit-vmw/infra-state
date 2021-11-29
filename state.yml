@@ -24,6 +24,9 @@ shared_services:
       deployed: false
       upgraded: false
   health: UP
+  integrations:
+    tmc:
+      attached: false
   name: arcas-shared-services
   upgradedFrom: null
   version: 1.4.0
@@ -43,5 +46,8 @@ workload_clusters:
       deployed: true
       upgraded: true
   health: UP
+  integrations:
+    tmc:
+      attached: false
   name: arcas-workload
   version: 1.4.0
